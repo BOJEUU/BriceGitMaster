@@ -103,4 +103,40 @@ $sw_data = [
         "arsenal" => "2 canons lasers",
         "astromechDroid" => false
     ],
+
+    [
+        "name" => "Suprématie",
+        "image" => "/images/suprematie.jpg",
+        "size" => "60 km",
+        "weight" => "Assez lourd",
+        "arsenal" => "Super Star Destroyer",
+        "astromechDroid" => "Au moins un million"
+    ],
+    
+    [
+        "name" => "Azure Angel",
+        "image" => "/images/azureangel",
+        "size" => "402m de longueur",
+        "weight" => "43.6 tonnes",
+        "arsenal" => "4 canons lasers, 1 lance-torpilles à proton",
+        "astromechDroid" => "1 R4-series agromech droid"
+    ],
+
+    [
+        "name" => "Croiseur Eternel",
+        "image" => "/images/croiseureternel.jpg",
+        "size" => "804m de longueur, 434m de largeur, 900m de hauteur",
+        "weight" => "256.000 tonnes",
+        "arsenal" => "Batteries de turbolasers",
+        "astromechDroid" => "none"
+    ],
+
+    [
+        "name" => "Malveillant",
+        "image" => "/images/malveillant.jpg",
+        "size" => "7 892 m de longueur",
+        "weight" => "inconnu",
+        "arsenal" => "Double Canon à Ions géant, 12 canons lasers jumeaux et rayon tracteur",
+        "astromechDroid" => "none"
+    ]
 ];
