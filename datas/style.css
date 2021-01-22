@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "star";
+    src: url("../datas/images/font/Starjedi.ttf");
+          
+   }
+   body{
+       font-family: "star";
+   }
+   .cc{
+       object-fit: cover;
+       object-position: center;
+   }
