@@ -1,44 +1,37 @@
 <?php
-<<<<<<< HEAD
-
 $sw_data = [
     [
-        "name" => "Destroyer Stellaire Venator"
-        "image" => "images/destroyer_venator.jpg"
-        "size" => "1137 m de longueur pour 548 m de large et 268m de haut"
-        "weight" => "Vaisseau lourd"
-        "arsenal" => "8 turbolasers lourds, 2 turbolasers moyens, 52 canons lasers, 6 rayons tracteurs, 4 lance-torpilles à proton"
-        "astromecano" => "Sans"
-    ];
+        "name" => "Destroyer Stellaire Venator",
+        "size" => "1137 m de longueur pour 548 m de large et 268m de haut",
+        "weight" => "9653 tonnes",
+        "arsenal" => "8 turbolasers lourds, 2 turbolasers moyens, 52 canons lasers, 6 rayons tracteurs, 4 lance-torpilles à proton",
+        "image" => "datas/images/destroyer_venator.jpg",
+        "astromechDroid" => false
+    ],
     [
-        "name" => "Twilight"
-        "image" => "images/twilight.jpg"
-        "size" => "34,1 m de long pour 16,97 m de large et 15,73 m de haut"
-        "weight" => "Vaisseaux légers"
-        "arsenal" => "3 Blasters lourds / Tourelles laser rotatives"
-        "astromecano" => "Sans"
-    ];
+        "name" => "Twilight",
+        "size" => "34,1 m de long pour 16,97 m de large et 15,73 m de haut",
+        "weight" => "75000kg",
+        "arsenal" => "3 Blasters lourds / Tourelles laser rotatives",
+        "image" => "datas/images/twilight.jpg",
+        "astromechDroid" => false
+    ],
     [
-        "name" => "Tydirium"
-        "image" => "tyridium.jpg"
-        "size" => "none"
-        "weight" => "Vaisseaux légers"
-        "arsenal" => "none"
-        "astromecano" => "none"
-    ];
+        "name" => "Tydirium",
+        "size" => "20m",
+        "weight" => "50000kg",
+        "arsenal" => "2 doubles canons laser arrière, 2 doubles canons montés sur les ailes, 1 double canon laser arrière",
+        "image" => "datas/images/tydirium.jpg",
+        "astromechDroid" => false
+    ],
     [
-        "name" => "Valance"
-        "image" => "images/valance.jpg"
-        "size" => "none"
-        "weight" => "Vaisseaux légers"
-        "arsenal" => "none"
-        "astromecano" => "none"
-    ];
-];
-
-?>
-=======
-$sw_data = [
+        "name" => "Valance",
+        "size" => "33m",
+        "weight" => "100000kg",
+        "arsenal" => "aucun",
+        "image" => "datas/images/valance.jpg",
+        "astromechDroid" => false
+    ],
     [
         "name" => "Ebon Hawk",
         "size" => "24m",
@@ -90,7 +83,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "TIE Chasseur", 
+        "name" => "TIE Chasseur",
         "size" => "7.80 mètres",
         "weight" => "1 tonne",
         "arsenal" => "2 canons laser SFS L-s1 ; 2 lance-missiles à concussion SFS M-s3 (4 en magasin) ; 2 lance-torpilles à protons SFS T-s5 (2 en magasin) ; Assortiments de Bombes à Protons, Mines Orbitales et Détonateurs Thermiques",
@@ -151,7 +144,7 @@ $sw_data = [
         "arsenal" => "Super Star Destroyer",
         "astromechDroid" => false
     ],
-    
+
     [
         "name" => "Azure Angel",
         "image" => "datas/images/azureangel",
@@ -177,6 +170,14 @@ $sw_data = [
         "weight" => "inconnu",
         "arsenal" => "Double Canon à Ions géant, 12 canons lasers jumeaux et rayon tracteur",
         "astromechDroid" => false
+    ],
+
+    [
+        "name" => "Canonnière TIO/BA",
+        "image" => "datas/images/33af733c06841c047aa94733149db35d.jpg",
+        "size" => "17m",
+        "weight" => "28000kg",
+        "arsenal" => "3 canons antipersonnels 2 lance-missiles 4 canons-laser 8 roquettes air-air",
+        "astromechDroid" => false
     ]
 ];
->>>>>>> 987054a15631000d20f54096ba63a95148f88fb7
