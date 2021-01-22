@@ -18,7 +18,7 @@ require_once "datas/sw-data.php";
 </head>
 
 <body style="background-image:url(../datas/images/paypal/co341S.jpg)">
-    <h1 class="text-center text-light">STAR SHiP</h1>
+    <h1 class="text-center text-light">$ STAR SHiP #</h1>
     <div class="row m-0">
         <?php
         foreach ($sw_data as $key => $value) { ?>
@@ -27,7 +27,7 @@ require_once "datas/sw-data.php";
                 <div class="card" style="height: 50rem; ">
                     <img class="card-img-top h-50 cc" src="<?php echo $sw_data[$key]["image"] ?>" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title text-center"><?php echo $sw_data[$key]["name"] ?></h5>
+                        <h5 class="card-title text-center">@ <?php echo $sw_data[$key]["name"] ?> </h5>
                         <p class="card-text">-<?php echo $sw_data[$key]["arsenal"] ?></p>
                         <p class="card-text">-<?php echo $sw_data[$key]["weight"] ?></p>
                         <p class="card-text">-<?php echo $sw_data[$key]["size"] ?></p>
