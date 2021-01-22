@@ -18,7 +18,7 @@ require_once "datas/sw-data.php";
 </head>
 
 <body style="background-image:url(../datas/images/paypal/co341S.jpg)">
-    <h1 class="text-center text-light">STAR SHIP</h1>
+    <h1 class="text-center text-light">STAR SHiP</h1>
     <div class="row">
         <?php
         foreach ($sw_data as $key => $value) { ?>
