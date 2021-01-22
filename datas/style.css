@@ -5,6 +5,7 @@
    }
    body{
        font-family: "star";
+       background-image: url("../datas/images/paypal/co341S.jpg");
    }
    .cc{
        object-fit: cover;
