@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="datas/style.css">
 </head>
 
-<body style="background-image:url(../datas/images/paypal/co341S.jpg)">
+<body>
     <h1 class="text-center text-light">$ STAR SHiP #</h1>
     <div class="row m-0">
         <?php
