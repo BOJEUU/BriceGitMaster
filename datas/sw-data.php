@@ -17,6 +17,7 @@
         "image" => "images/A-wing.png",
         "astromechDroid" => true
     ]
+
     ,[
         "name" => "V-wing",
         "size" => "7.9m",
