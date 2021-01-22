@@ -1,4 +1,4 @@
-<?php require_once "datas/sw-data.php"; ?>
+<?php require_once "controller/controller_index.php"; ?>
 
 <!doctype html>
 <html lang="fr">
@@ -32,7 +32,6 @@
                     </div>
                     <div class="d-flex flex-column justify-content-center w-100 p-3">
                         <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship !</a>
-                        <small class="text-center">star trek +-= star wars !!! ti coeur ¶</small>
                     </div>
                 </div>
             </div>

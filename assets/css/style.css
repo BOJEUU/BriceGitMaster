@@ -1,11 +1,11 @@
 @font-face {
     font-family: "star";
-    src: url("../datas/images/font/Starjedi.ttf");
+    src: url("../font/Starjedi.ttf");
           
    }
    body{
        font-family: "star";
-       background-image: url("../datas/images/paypal/co341S.jpg");
+       background-image: url("../../datas/images/co341S.jpg");
    }
    .cc{
        object-fit: cover;
