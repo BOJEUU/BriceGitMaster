@@ -14,28 +14,31 @@ require_once "datas/sw-data.php";
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="datas/style.css">
 </head>
 
-<body>
+<body style="background-image:url(../datas/images/paypal/co341S.jpg)">
+    <h1 class="text-center text-light">STAR SHIP</h1>
     <div class="row">
         <?php
         foreach ($sw_data as $key => $value) { ?>
 
             <div class="col-12 col-md-4 p-4">
                 <div class="card" style="height: 50rem; ">
-                    <img class="card-img-top h-50" src="<?php echo $sw_data[$key]["image"] ?>" alt="Card image cap">
+                    <img class="card-img-top h-50 cc" src="<?php echo $sw_data[$key]["image"] ?>" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center"><?php echo $sw_data[$key]["name"] ?></h5>
                         <p class="card-text">-<?php echo $sw_data[$key]["arsenal"] ?></p>
                         <p class="card-text">-<?php echo $sw_data[$key]["weight"] ?></p>
                         <p class="card-text">-<?php echo $sw_data[$key]["size"] ?></p>
-                        <p class="card-text"><?php if($sw_data[$key]["astromechDroid"]){
-                            echo "- port droide astromechano";
-                        } ?></p>
+                        <p class="card-text"><?php if ($sw_data[$key]["astromechDroid"]) {
+                                                    echo "- port droide astromechano";
+                                                } ?></p>
 
-                        <div class="d-flex justify-content-center w-100">
-                            <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship !</a>
-                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-center w-100 p-3">
+                        <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship !</a>
                     </div>
                 </div>
 
