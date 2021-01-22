@@ -1,4 +1,4 @@
-<?php require_once "controler.php"; ?>
+<?php require_once "controller/controller_index.php"; ?>
 
 <!doctype html>
 <html lang="fr">
@@ -31,8 +31,7 @@
                         <p class="card-text"><?= ($sw_data[$key]["astromechDroid"]) ? "- port droide astromechano" : "" ?></p>
                     </div>
                     <div class="d-flex flex-column justify-content-center w-100 p-3">
-                        <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship !</a>
-                        <small class="text-center">star wars is better than star trek !! ¶</small>
+                        <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship!</a>
                     </div>
                 </div>
             </div>
