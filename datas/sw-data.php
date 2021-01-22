@@ -1,7 +1,7 @@
 <?php
 $sw_data = [
     [
-        "name" => "Slave I",
+        "name" => "Slave i",
         "size" => "21.5m",
         "weight" => "122650kg",
         "arsenal" => "2 canons blaster rotatifs, 1 canon à ions (dissimulé), 1 lance-missiles à concussion (dissimulé), 2 lance-torpilles à proton (dissimulés), 1 projecteur de rayon tracteur (dissimulé)",
@@ -10,10 +10,10 @@ $sw_data = [
     ],
 
     [
-        "name" => "X-Wing T-65",
+        "name" => "x-Wing T-65",
         "size" => "12.5m",
         "weight" => "25172kg",
-        "arsenal" => "4 canons lasers Tain & Bak KX9 ou IX4; 2 lance-torpilles à proton Krupx MG7",
+        "arsenal" => "4 canons lasers Tain & Bak kx9 ou ix4; 2 lance-torpilles à proton Krupx MG7",
         "image" => "datas/images/X-WingT-65.jpg",
         "astromechDroid" => true
     ],
@@ -37,7 +37,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "Destroyer Stellaire Venator",
+        "name" => "Destroyer Stellaire venator",
         "size" => "1137 m de longueur pour 548 m de large et 268m de haut",
         "weight" => "9653 tonnes",
         "arsenal" => "8 turbolasers lourds, 2 turbolasers moyens, 52 canons lasers, 6 rayons tracteurs, 4 lance-torpilles à proton",
@@ -64,7 +64,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "Valance",
+        "name" => "valance",
         "size" => "33m",
         "weight" => "100000kg",
         "arsenal" => "aucun",
@@ -89,15 +89,16 @@ $sw_data = [
         "image" => "datas/images/A-wing.png",
         "astromechDroid" => true
     ], 
-
+    
     [
-        "name" => "V-wing",
+        "name" => "v-wing",
         "size" => "7.9m",
         "weight" => "50000kg",
         "arsenal" => "2 doubles canons laser",
         "image" => "datas/images/V-wing.png",
         "astromechDroid" => false
     ],
+
     [
         "name" => "Mante D-5",
         "size" => "68m de longueur, 74m de largeur, 58m de hauteur",
@@ -117,7 +118,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "Imperial-II Star Destroyer",
+        "name" => "imperial-II Star Destroyer",
         "size" => "1600 m",
         "weight" => "9653 tonnes",
         "arsenal" => "8 batteries octuples de turbolasers, 50 batteries turbolasers lourdes, 50 batteries turbolasers légères, 20 canons à ions lourds, 10 rayons tracteurs Phylon Q7, 26 canons lasers",
@@ -126,7 +127,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "TIE Chasseur",
+        "name" => "TiE Chasseur",
         "size" => "7.80 mètres",
         "weight" => "1 tonne",
         "arsenal" => "2 canons laser SFS L-s1 ; 2 lance-missiles à concussion SFS M-s3 (4 en magasin) ; 2 lance-torpilles à protons SFS T-s5 (2 en magasin) ; Assortiments de Bombes à Protons, Mines Orbitales et Détonateurs Thermiques",
@@ -162,7 +163,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "Intercepteur Impérial Fureur",
+        "name" => "Intercepteur impérial Fureur",
         "image" => "datas/images/intercepteur_fureur.jpg",
         "size" => "50m",
         "weight" => "4.5 tonnes",
@@ -216,7 +217,7 @@ $sw_data = [
     ],
 
     [
-        "name" => "Canonnière TIO/BA",
+        "name" => "Canonnière TiO/BA",
         "image" => "datas/images/33af733c06841c047aa94733149db35d.jpg",
         "size" => "17m",
         "weight" => "28000kg",
