@@ -1,7 +1,4 @@
-<?php
-
-require_once "datas/sw-data.php";
-?>
+<?php require_once "datas/sw-data.php"; ?>
 
 <!doctype html>
 <html lang="fr">
@@ -31,18 +28,13 @@ require_once "datas/sw-data.php";
                         <p class="card-text">-<?php echo $sw_data[$key]["arsenal"] ?></p>
                         <p class="card-text">-<?php echo $sw_data[$key]["weight"] ?></p>
                         <p class="card-text">-<?php echo $sw_data[$key]["size"] ?></p>
-                        <p class="card-text"><?php if ($sw_data[$key]["astromechDroid"]) {
-                                                    echo "- port droide astromechano";
-                                                } ?></p>
-
-
+                        <p class="card-text"><?= ($sw_data[$key]["astromechDroid"]) ? "- port droide astromechano" : "" ?></p>
                     </div>
                     <div class="d-flex flex-column justify-content-center w-100 p-3">
                         <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship !</a>
                         <small class="text-center">star trek is better than star wars !! ¶</small>
                     </div>
                 </div>
-
             </div>
 
         <?php } ?>
