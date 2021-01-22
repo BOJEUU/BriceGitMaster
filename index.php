@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body style="background-image:url(../datas/images/paypal/co341S.jpg)">
+<body>
     <h1 class="text-center text-light">$ STAR SHiP #</h1>
     <div class="row m-0">
         <?php
@@ -32,7 +32,7 @@
                     </div>
                     <div class="d-flex flex-column justify-content-center w-100 p-3">
                         <a href="https://www.paypal.com/donate?hosted_button_id=YPCDAABFFFBKL" class="btn btn-primary">Pimp my ship !</a>
-                        <small class="text-center"></small>
+                        <small class="text-center">star trek is better than star wars !!! ¶</small>
                     </div>
                 </div>
             </div>
